@@ -1,0 +1,482 @@
+{
+  "language": {
+    "name": "English",
+    "switcherLabel": "Change language",
+    "helpTranslate": "Help translate YGOdle →"
+  },
+  "common": {
+    "na": "N/A",
+    "close": "Close",
+    "closeModal": "Close modal",
+    "gotIt": "Got it!"
+  },
+  "header": {
+    "tagline": "A Daily Yu-Gi-Oh! Wordle"
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy & Data Policy",
+    "helpTranslate": "Help translate"
+  },
+  "home": {
+    "feedbackAria": "Open feedback modal",
+    "feedbackTitle": "Share your feedback",
+    "feedbackSubtitle": "Suggest features, report bugs, or tell us what you think!",
+    "chooseDuel": "Choose Your Duel"
+  },
+  "timer": {
+    "nextCards": "Next cards in:"
+  },
+  "modes": {
+    "monsters": {
+      "title": "Monsters",
+      "description": "Discover today's Yu-Gi-Oh! monster",
+      "seriesDescription": "Discover today's {{series}} monster"
+    },
+    "spells": {
+      "title": "Spells",
+      "description": "Guess today's spell card",
+      "seriesDescription": "Guess today's {{series}} spell card"
+    },
+    "traps": {
+      "title": "Traps",
+      "description": "Uncover today's trap card",
+      "seriesDescription": "Uncover today's {{series}} trap card"
+    },
+    "over-under": {
+      "title": "OverUnder",
+      "description": "Which monster has the higher ATK?",
+      "seriesDescription": "Which {{series}} monster has the higher ATK?"
+    }
+  },
+  "series": {
+    "label": "Series",
+    "badgeAria": "Series: {{series}}",
+    "pickerNote": "Each series only uses cards that appeared in its anime.",
+    "global": { "title": "All Cards" },
+    "dm": { "title": "Yu-Gi-Oh! Duel Monsters" },
+    "gx": { "title": "Yu-Gi-Oh! GX" },
+    "5ds": { "title": "Yu-Gi-Oh! 5D's" },
+    "zexal": { "title": "Yu-Gi-Oh! ZEXAL" },
+    "arcv": { "title": "Yu-Gi-Oh! ARC-V" }
+  },
+  "game": {
+    "loadingCards": "Loading daily cards...",
+    "loadingCard": "Loading daily card...",
+    "noCardTitle": "No Daily Card Available",
+    "noCardText": {
+      "monsters": "No daily monster card is available today.",
+      "spells": "No daily spell card is available today.",
+      "traps": "No daily trap card is available today."
+    },
+    "returnHome": "Return to Home",
+    "guessToday": {
+      "monsters": "Guess today's Yu-Gi-Oh! monster card",
+      "spells": "Guess today's Yu-Gi-Oh! spell card",
+      "traps": "Guess today's Yu-Gi-Oh! trap card"
+    },
+    "guessTodaySeries": {
+      "monsters": "Guess today's Yu-Gi-Oh! {{series}} monster card",
+      "spells": "Guess today's Yu-Gi-Oh! {{series}} spell card",
+      "traps": "Guess today's Yu-Gi-Oh! {{series}} trap card"
+    },
+    "howToPlay": "How to Play",
+    "specialCases": "Special Cases"
+  },
+  "search": {
+    "placeholder": {
+      "monsters": "Search for a monster...",
+      "spells": "Search for a spell...",
+      "traps": "Search for a trap..."
+    },
+    "noResults": "No cards found for \"{{query}}\""
+  },
+  "cardFields": {
+    "type": "Type",
+    "race": "Race",
+    "level": "Level",
+    "levelShort": "LV",
+    "atk": "ATK",
+    "def": "DEF",
+    "attribute": "Attribute",
+    "releaseYear": "Release Year",
+    "year": "Year"
+  },
+  "gridHeaders": {
+    "card": "CARD",
+    "type": "TYPE",
+    "race": "RACE",
+    "level": "LEVEL",
+    "atk": "ATK",
+    "def": "DEF",
+    "attribute": "ATTRIBUTE",
+    "releaseYear": "RELEASE YEAR"
+  },
+  "gridTooltips": {
+    "level": "XYZ monsters use Rank as Level. Missing values = 0",
+    "atk": "Unknown ATK (?) = -1. Missing values = 0",
+    "def": "Unknown DEF (?) = -1. Link monsters = 0. Missing values = 0",
+    "releaseYear": "TCG release year only. OCG-only cards show N/A (lowest value)"
+  },
+  "grid": {
+    "guessNumber": "Guess #{{number}}",
+    "mysteryCard": "Mystery Card",
+    "clickFullSize": "Click to view full size",
+    "cardClarity": "Card Clarity"
+  },
+  "summary": {
+    "title": "What you know so far",
+    "guessCount_one": "{{count}} guess",
+    "guessCount_other": "{{count}} guesses",
+    "ruledOutCount_one": "{{count}} ruled out",
+    "ruledOutCount_other": "{{count}} ruled out",
+    "ruledOutList": "Ruled out: {{values}}"
+  },
+  "hints": {
+    "title": "Hints Available",
+    "newCount_one": "{{count}} new",
+    "newCount_other": "{{count}} new",
+    "tier2Teaser_one": "{{count}} more hint unlocks after {{threshold}} attempts",
+    "tier2Teaser_other": "{{count}} more hints unlock after {{threshold}} attempts",
+    "unlocksAt_one": "Unlocks at {{count}} attempt",
+    "unlocksAt_other": "Unlocks at {{count}} attempts",
+    "reveal": "Reveal",
+    "tier": "Tier {{tier}}",
+    "noArchetype": "No archetype",
+    "noDescription": "No description available",
+    "labels": {
+      "archetype": "Archetype",
+      "description": "Description",
+      "initials": "Initials",
+      "image": "Image"
+    }
+  },
+  "result": {
+    "won": "Congratulations!",
+    "lost": "Game Over!",
+    "cardWas": "The card was:",
+    "solvedIn_one": "Solved in {{count}} guess!",
+    "solvedIn_other": "Solved in {{count}} guesses!"
+  },
+  "gameEnd": {
+    "tryNext": "Try Next:",
+    "allCompleted": "All modes completed!",
+    "backHome": "Back to Home",
+    "todayProgress": "Today's Progress",
+    "modesCount": "{{played}}/{{total}} modes"
+  },
+  "previousDay": {
+    "title": "Yesterday's card was",
+    "notFound": {
+      "monsters": "No monster card found for yesterday's date.",
+      "spells": "No spell card found for yesterday's date.",
+      "traps": "No trap card found for yesterday's date."
+    }
+  },
+  "overUnder": {
+    "loading": "Loading monsters...",
+    "noImage": "No image",
+    "gameOver": "Game Over!",
+    "betterLuck": "Better luck next time, duelist",
+    "streak": "Streak",
+    "best": "Best",
+    "playAgain": "Play Again",
+    "instruction": "Does the right monster have <higher>Higher</higher>, <equal>Equal</equal> or <lower>Lower</lower> ATK than the left one?",
+    "vs": "VS",
+    "correct": "Correct!",
+    "nextLoading": "Next card loading...",
+    "wrong": "Wrong!",
+    "higher": "Higher",
+    "equal": "Equal",
+    "lower": "Lower"
+  },
+  "howToPlay": {
+    "eyebrow": "How to play · {{mode}}",
+    "cta": "Got it! Let's Play",
+    "howItWorks": "How it works",
+    "cluesTitle": "Clues after each guess",
+    "colorGuide": "Color guide",
+    "colorCorrect": "Perfect match: this clue is correct!",
+    "colorIncorrect": "No match: this clue is incorrect",
+    "colorArrow": "The mystery card's value is higher ↑ or lower ↓",
+    "facts": {
+      "attempts": "attempts",
+      "cluesPerGuess": "clues per guess",
+      "newCardDaily": "new card a day",
+      "imageUnblurs": "image unblurs"
+    },
+    "clues": {
+      "typeExamples": "Fusion, Synchro, Effect…",
+      "raceExamples": "Beast, Machine, Warrior…",
+      "attributeExamples": "DARK, LIGHT, EARTH…",
+      "higherLower": "Higher ↑ or lower ↓"
+    },
+    "modes": {
+      "monsters": {
+        "label": "Monster",
+        "objective": "Guess the daily monster card",
+        "steps": [
+          "A new mystery monster card is revealed every day.",
+          "Type any Yu-Gi-Oh! monster name in the search bar to make a guess.",
+          "Read the feedback on each clue to narrow down the mystery monster.",
+          "Keep guessing until you find the exact card!"
+        ]
+      },
+      "spells": {
+        "label": "Spell",
+        "objective": "Identify the daily spell card in 6 attempts or less",
+        "steps": [
+          "A new mystery spell card is available every day.",
+          "Search for any Yu-Gi-Oh! spell card name to make your guess.",
+          "The card image starts completely blurred and becomes clearer with each guess.",
+          "Plan your guesses carefully: use elimination and logical deduction!"
+        ]
+      },
+      "traps": {
+        "label": "Trap",
+        "objective": "Discover the daily trap card within 6 attempts",
+        "steps": [
+          "Each day brings a new mystery trap card to identify.",
+          "Enter any Yu-Gi-Oh! trap card name to submit your guess.",
+          "The image gets less blurry with each attempt: use visual clues!",
+          "Think about card relationships and mechanics, and make every guess count."
+        ]
+      }
+    }
+  },
+  "specialCases": {
+    "eyebrow": "Special cases",
+    "titleMonsters": "How monsters are compared",
+    "titleCards": "How cards are compared",
+    "subtitleMonsters": "Yu-Gi-Oh! has many special monster types. Here's how they're handled so every comparison stays fair.",
+    "subtitleCards": "Understanding how Release Year comparisons work for all card types.",
+    "footnote": "These conversions ensure that all monsters can be compared fairly, regardless of their type.",
+    "items": {
+      "xyz": {
+        "title": "XYZ Monsters",
+        "rule": "Rank = Level",
+        "description": "XYZ monsters don't have levels but have ranks instead. For comparison purposes, Rank is treated as Level.",
+        "examples": ["Number 39: Utopia (Rank 4 = Level 4)", "Cyber Dragon Nova (Rank 5 = Level 5)"]
+      },
+      "link": {
+        "title": "Link Monsters",
+        "rule": "Link = Level · DEF = 0",
+        "description": "Link monsters have no Level/Rank and no DEF. Level is the same as Link Value, and DEF as 0.",
+        "examples": ["S:P Little Knight (Level 2, DEF 0)", "Accesscode Talker (Level 4, DEF 0)"]
+      },
+      "unknownStats": {
+        "title": "Unknown ATK/DEF Values",
+        "rule": "? = -1",
+        "description": "Monsters with '?' for ATK or DEF are treated as -1 for comparison purposes.",
+        "examples": ["Slifer the Sky Dragon (?/? = -1/-1)", "The Calculator (?/0 = -1/0)"]
+      },
+      "nullValues": {
+        "title": "Null Values",
+        "rule": "Missing = 0",
+        "description": "Monsters with null or missing Level/Rank/ATK/DEF values are treated as 0 for comparison.",
+        "examples": ["Some special monsters may have missing stats", "These are automatically set to 0"]
+      },
+      "releaseYear": {
+        "title": "Release Year (TCG)",
+        "rule": "OCG-only = lowest",
+        "description": "Release Year refers specifically to the TCG (Trading Card Game) release date. Cards that were only released in OCG (Official Card Game) and never made it to TCG will show 'N/A' and are considered to have the lowest possible value for comparison.",
+        "examples": ["OCG-only cards show 'N/A' (treated as lowest value)", "TCG cards show their actual release year"]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "subtitle": "The daily Yu-Gi-Oh! card guessing game",
+    "madeByFans": "Made by fans, for fans",
+    "thanks": "Thanks for playing!",
+    "welcome": "Welcome to <strong>YGOdle</strong>! Test your knowledge of the Trading Card Game universe by finding a new card every day.",
+    "howToPlay": "How to Play",
+    "steps": [
+      "Pick a series and a game mode on the home page",
+      "Search for a card and submit your guess",
+      "Use the colored clues (type, ATK, level…) to narrow it down",
+      "Find the card in as few attempts as possible!"
+    ],
+    "gameModes": "Game Modes",
+    "modeDescriptions": {
+      "monsters": "Guess the daily monster",
+      "spells": "Guess the daily spell",
+      "traps": "Guess the daily trap",
+      "over-under": "Higher or lower ATK?"
+    },
+    "series": "Series",
+    "seriesText": "Play with every card ever printed, or only with the cards that appeared in your favorite anime.",
+    "credits": "Credits",
+    "hugeThanks": "Huge thanks to",
+    "creditTexts": {
+      "ygoprodeck": "for providing all the card data and hosting the images used in this game. Without their API and hard work, YGOdle wouldn't exist!",
+      "yugipedia": "and its contributors for their incredibly detailed anime records, which tell us which cards appeared in each series."
+    },
+    "disclaimer": "All card images and data are property of Konami. This project is created by fans for fans and is not affiliated with Konami or the official Yu-Gi-Oh! Trading Card Game."
+  },
+  "whatsNew": {
+    "eyebrow": "New feature",
+    "title": "Play by series!",
+    "subtitle": "You asked for it in your feedback, here it is.",
+    "cta": "Let's duel!",
+    "features": {
+      "pickSeries": {
+        "title": "Pick your series",
+        "text": "Use the series selector on the home page: DM, GX, 5D's, ZEXAL, ARC-V or every card."
+      },
+      "animeOnly": {
+        "title": "Anime cards only",
+        "text": "Each series only uses cards that appeared in its anime."
+      },
+      "ownDailyCards": {
+        "title": "Its own daily cards",
+        "text": "Every series has its own Monster, Spell, Trap and OverUnder challenges."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Data Storage & Tracking Policy",
+    "lastUpdated": "Last updated: October 27, 2026",
+    "footer": "We respect your privacy and are committed to protecting your data",
+    "thanks": "Thank you for playing YGOdle!",
+    "intro": "This policy explains what technologies we use to store data and track usage on our website. Our website primarily uses browser local storage (not traditional cookies) to store game data on your device, and privacy-focused analytics to understand how players use it. None of the data we store locally contains personally identifiable information.",
+    "highlights": {
+      "noAccount": { "title": "No account", "text": "Nothing to sign up for" },
+      "onDevice": { "title": "On your device", "text": "Progress stays in your browser" },
+      "noPersonalData": { "title": "No personal data", "text": "Anonymous analytics only" }
+    },
+    "definitionsTitle": "Definitions",
+    "definitions": {
+      "company": { "term": "Company", "text": "Refers to YGOdle (\"We\", \"Us\" or \"Our\" in this Policy)" },
+      "localStorage": { "term": "Local Storage", "text": "Browser storage technology that allows websites to store data locally within a user's browser" },
+      "analytics": { "term": "Analytics", "text": "Services that collect and analyze data about how users interact with our website" },
+      "website": { "term": "Website", "text": "YGOdle, accessible from" }
+    },
+    "technologiesTitle": "Data Storage Technologies We Use",
+    "tags": {
+      "persistent": "Persistent",
+      "administeredByUs": "Administered by us",
+      "thirdPartyAnalytics": "Third-party analytics",
+      "thirdPartyCookies": "Third-party cookies",
+      "administeredBy": "Administered by {{company}}"
+    },
+    "technologies": {
+      "localStorage": {
+        "name": "Local Storage",
+        "text": "We use your browser's local storage to remember your game progress (for each series and mode), your selected series and language, prevent multiple plays per day, and store your game history. This data stays on your device and is not transmitted to our servers."
+      },
+      "vercel": {
+        "text": "We use Vercel Analytics to understand how users interact with our website. This service collects anonymous usage data such as page views, user interactions, and performance metrics. Vercel Analytics is privacy-focused and does not use cookies or collect personal information. <link>Learn more</link>"
+      },
+      "google": {
+        "name": "Google Analytics (Optional)",
+        "text": "When available, we may use Google Analytics to track user engagement, game completion rates, and website performance. You can opt-out by installing the <link>Google Analytics Opt-out Browser Add-on</link>."
+      }
+    },
+    "choicesTitle": "Your Privacy Choices",
+    "choices": {
+      "localStorage": { "title": "Local Storage", "text": "You can clear your browser's local storage at any time. This resets your game progress." },
+      "analytics": { "title": "Analytics", "text": "Vercel Analytics requires no opt-out. For Google Analytics, use the opt-out add-on or disable JavaScript." },
+      "browser": { "title": "Browser Settings", "text": "Most browsers let you clear stored data, block JavaScript, or use private mode." }
+    },
+    "contactTitle": "Contact Us",
+    "contactText": "Any question about this policy? Email us at"
+  },
+  "feedback": {
+    "title": "Share Your Feedback",
+    "subtitle": "Help us improve YGOdle — every suggestion counts!",
+    "thanksTitle": "Thank you, Duelist!",
+    "thanksText": "Your feedback has been received. We truly appreciate it!",
+    "cooldownTitle": "Thanks for your enthusiasm!",
+    "cooldownText": "You can send another feedback in <strong>{{duration}}</strong>.",
+    "minutes_one": "{{count}} minute",
+    "minutes_other": "{{count}} minutes",
+    "errorCooldown": "Please wait {{duration}} before sending another feedback.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "kindLabel": "What kind of feedback?",
+    "messageLabel": "Tell us more",
+    "sending": "Sending…",
+    "send": "Send Feedback",
+    "categories": {
+      "bug": { "label": "Bug Report", "placeholder": "Describe the bug: what happened and what you expected…" },
+      "feature": { "label": "Feature Request", "placeholder": "What feature would you love to see? Describe it in detail…" },
+      "improvement": { "label": "Improvement", "placeholder": "What could we do better? Be as specific as you want…" },
+      "other": { "label": "Other", "placeholder": "Anything on your mind about YGOdle…" }
+    }
+  },
+  "cardValues": {
+    "attributes": {
+      "DARK": "DARK",
+      "LIGHT": "LIGHT",
+      "EARTH": "EARTH",
+      "WATER": "WATER",
+      "FIRE": "FIRE",
+      "WIND": "WIND",
+      "DIVINE": "DIVINE"
+    },
+    "races": {
+      "Aqua": "Aqua",
+      "Beast": "Beast",
+      "Beast-Warrior": "Beast-Warrior",
+      "Creator-God": "Creator-God",
+      "Cyberse": "Cyberse",
+      "Dinosaur": "Dinosaur",
+      "Divine-Beast": "Divine-Beast",
+      "Dragon": "Dragon",
+      "Fairy": "Fairy",
+      "Fiend": "Fiend",
+      "Fish": "Fish",
+      "Illusion": "Illusion",
+      "Insect": "Insect",
+      "Machine": "Machine",
+      "Plant": "Plant",
+      "Psychic": "Psychic",
+      "Pyro": "Pyro",
+      "Reptile": "Reptile",
+      "Rock": "Rock",
+      "Sea Serpent": "Sea Serpent",
+      "Spellcaster": "Spellcaster",
+      "Thunder": "Thunder",
+      "Warrior": "Warrior",
+      "Winged Beast": "Winged Beast",
+      "Wyrm": "Wyrm",
+      "Zombie": "Zombie"
+    },
+    "spellRaces": {
+      "Normal": "Normal",
+      "Continuous": "Continuous",
+      "Equip": "Equip",
+      "Field": "Field",
+      "Quick-Play": "Quick-Play",
+      "Ritual": "Ritual"
+    },
+    "trapRaces": {
+      "Normal": "Normal",
+      "Continuous": "Continuous",
+      "Counter": "Counter"
+    },
+    "monsterTypeWords": {
+      "Normal": "Normal",
+      "Effect": "Effect",
+      "Fusion": "Fusion",
+      "Ritual": "Ritual",
+      "Synchro": "Synchro",
+      "XYZ": "XYZ",
+      "Xyz": "Xyz",
+      "Link": "Link",
+      "Pendulum": "Pendulum",
+      "Tuner": "Tuner",
+      "Flip": "Flip",
+      "Toon": "Toon",
+      "Spirit": "Spirit",
+      "Union": "Union",
+      "Gemini": "Gemini"
+    },
+    "typeFormat": {
+      "monster": "{{words}} Monster",
+      "spell": "{{words}} Spell",
+      "trap": "{{words}} Trap"
+    }
+  }
+}

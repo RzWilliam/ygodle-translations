@@ -1,0 +1,24 @@
+# Rebuilds the site on Vercel when translations change, so merged translations go live.
+#
+# Setup: in Vercel (Project → Settings → Git → Deploy Hooks) create a hook on the production
+# branch, then add it here as a repository secret named VERCEL_DEPLOY_HOOK.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths: [locales/**, languages.json]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deployment
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK secret not set, skipping"
+            exit 0
+          fi
+          curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"

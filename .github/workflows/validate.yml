@@ -1,0 +1,31 @@
+name: Validate translations
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check locale files
+        run: node scripts/check-locales.js --no-code --locales locales
+
+      - name: Check languages.json
+        run: |
+          node -e '
+            const fs = require("fs");
+            const listed = JSON.parse(fs.readFileSync("languages.json", "utf8"));
+            const files = fs.readdirSync("locales").filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5));
+            const notListed = files.filter((c) => !listed.includes(c));
+            const noFile = listed.filter((c) => !files.includes(c));
+            if (notListed.length) console.warn("Not published (missing from languages.json):", notListed.join(", "));
+            if (noFile.length) { console.error("Listed in languages.json without a file:", noFile.join(", ")); process.exit(1); }
+          '
