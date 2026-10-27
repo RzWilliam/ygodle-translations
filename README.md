@@ -39,7 +39,7 @@ languages.json  ← list of languages published on the site
 | In English | Rule |
 |---|---|
 | `{{series}}`, `{{count}}`… | **Placeholders**: keep them exactly as is (you can move them in the sentence). |
-| `<strong>…</strong>`, `<link>…</link>` | **Tags**: keep them and translate the text between them. |
+| `<strong>…</strong>`, `<a>…</a>` | **Tags**: keep them and translate the text between them. |
 | `guessCount_one` / `guessCount_other` | **Plurals**: `_one` is the singular, `_other` the plural. Add `_few`, `_many`… if your language needs them ([rules per language](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)). |
 | `"steps": [ … ]` | **Lists**: keep the same number of items. |
 | `cardValues.*` | **Card vocabulary** (attributes, types, Spell/Trap icons): use the **official TCG terms** of your language, as printed on the cards. Keep the **keys** (left side) in English. |

@@ -316,22 +316,49 @@
   },
   "whatsNew": {
     "eyebrow": "Nouveauté",
-    "title": "Jouez par série !",
-    "subtitle": "Vous l'avez demandé dans vos avis, le voici.",
+    "title": "YGOdle parle maintenant français !",
+    "subtitle": "Et peut-être bientôt d'autres langues, avec votre aide.",
     "cta": "C'est l'heure du duel !",
     "features": {
-      "pickSeries": {
-        "title": "Choisissez votre série",
-        "text": "Utilisez le sélecteur de série sur la page d'accueil : DM, GX, 5D's, ZEXAL, ARC-V ou toutes les cartes."
+      "pickLanguage": {
+        "title": "Choisissez votre langue",
+        "text": "Cliquez sur une langue ci-dessus, ou utilisez à tout moment le bouton en haut à droite de la page."
       },
-      "animeOnly": {
-        "title": "Uniquement les cartes de l'anime",
-        "text": "Chaque série n'utilise que les cartes apparues dans son anime."
+      "translatedCards": {
+        "title": "Des cartes traduites",
+        "text": "Les noms, types et descriptions des cartes utilisent leurs traductions officielles."
       },
-      "ownDailyCards": {
-        "title": "Ses propres cartes du jour",
-        "text": "Chaque série a ses propres défis Monstre, Magie, Piège et OverUnder."
+      "helpTranslate": {
+        "title": "Aidez à traduire YGOdle",
+        "text": "Les traductions sont open source : corrigez une erreur ou ajoutez votre langue sur <a>GitHub</a>."
       }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "YGOdle - Le jeu quotidien pour deviner des cartes Yu-Gi-Oh!",
+      "description": "Testez vos connaissances Yu-Gi-Oh! avec YGOdle ! Un jeu quotidien où il faut deviner des cartes Monstre, Magie et Piège. Un nouveau défi chaque jour !",
+      "keywords": "Yu-Gi-Oh, Yu-Gi-Oh français, jeu de cartes, défi quotidien, jeu de devinettes, cartes à collectionner, YGO, jeu quotidien, anime, énigme, Wordle, cartes Yu-Gi-Oh, monstres, magies, pièges"
+    },
+    "monsters": {
+      "title": "YGOdle - Défi des cartes Monstre",
+      "description": "Mettez-vous au défi avec les cartes Monstre de l'univers Yu-Gi-Oh!. Saurez-vous deviner le monstre du jour ?",
+      "keywords": "monstres Yu-Gi-Oh, cartes Monstre, deviner une carte, Dragon Blanc aux Yeux Bleus, Magicien Sombre, monstres à effet, monstres normaux"
+    },
+    "spells": {
+      "title": "YGOdle - Défi des cartes Magie",
+      "description": "Testez vos connaissances des cartes Magie dans ce défi Yu-Gi-Oh! quotidien. Saurez-vous identifier la magie du jour ?",
+      "keywords": "magies Yu-Gi-Oh, cartes Magie, Typhon d'Espace Mystique, Pot de Cupidité, magies Jeu-Rapide"
+    },
+    "traps": {
+      "title": "YGOdle - Défi des cartes Piège",
+      "description": "Relevez le défi des cartes Piège ! Testez vos connaissances Yu-Gi-Oh! avec des énigmes quotidiennes.",
+      "keywords": "pièges Yu-Gi-Oh, cartes Piège, Force de Miroir, Tribut Torrentiel, pièges Contre, pièges Continus"
+    },
+    "overUnder": {
+      "title": "YGOdle - OverUnder",
+      "description": "Saurez-vous deviner quel monstre Yu-Gi-Oh! a la plus forte ATK ? Un défi plus haut/plus bas sans fin : enchaînez les bonnes réponses !",
+      "keywords": "OverUnder, ATK, plus haut plus bas, mode infini, série de victoires, combat de monstres"
     }
   },
   "privacy": {
@@ -367,11 +394,11 @@
         "text": "Nous utilisons le stockage local de votre navigateur pour mémoriser votre progression (pour chaque série et chaque mode), la série et la langue choisies, empêcher de rejouer plusieurs fois par jour et conserver votre historique de parties. Ces données restent sur votre appareil et ne sont pas transmises à nos serveurs."
       },
       "vercel": {
-        "text": "Nous utilisons Vercel Analytics pour comprendre comment les utilisateurs interagissent avec notre site. Ce service collecte des données d'utilisation anonymes comme les pages vues, les interactions et les mesures de performance. Vercel Analytics respecte la vie privée : il n'utilise pas de cookies et ne collecte aucune donnée personnelle. <link>En savoir plus</link>"
+        "text": "Nous utilisons Vercel Analytics pour comprendre comment les utilisateurs interagissent avec notre site. Ce service collecte des données d'utilisation anonymes comme les pages vues, les interactions et les mesures de performance. Vercel Analytics respecte la vie privée : il n'utilise pas de cookies et ne collecte aucune donnée personnelle. <a>En savoir plus</a>"
       },
       "google": {
         "name": "Google Analytics (facultatif)",
-        "text": "Le cas échéant, nous pouvons utiliser Google Analytics pour mesurer l'engagement des joueurs, les taux de réussite et les performances du site. Vous pouvez vous y opposer en installant le <link>module complémentaire de désactivation de Google Analytics</link>."
+        "text": "Le cas échéant, nous pouvons utiliser Google Analytics pour mesurer l'engagement des joueurs, les taux de réussite et les performances du site. Vous pouvez vous y opposer en installant le <a>module complémentaire de désactivation de Google Analytics</a>."
       }
     },
     "choicesTitle": "Vos choix en matière de confidentialité",

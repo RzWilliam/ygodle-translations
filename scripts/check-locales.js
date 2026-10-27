@@ -134,6 +134,11 @@ for (const file of files) {
     if (expected.tags.join() !== actual.tags.join()) {
       error(`${file}: "${key}" tags differ (expected <${expected.tags.join('>, <')}>)`);
     }
+    // Attributes written in a translation are applied to the component (<a href="…">)
+    const text = Array.isArray(value) ? value.join('\n') : String(value);
+    if (/<\w+[^\w>]/.test(text)) {
+      error(`${file}: "${key}" tags must not have attributes (write <tag>…</tag>)`);
+    }
   }
 
   const total = sourceBaseKeys.size;
