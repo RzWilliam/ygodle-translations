@@ -30,6 +30,7 @@ languages.json  ← list of languages published on the site
 
 1. Copy `locales/en.json` to `locales/<code>.json`, where `<code>` is the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the language (`de`, `es`, `it`, `pt`…).
 2. Set `language.name` to the name of the language **in that language** (`Deutsch`, `Español`…). It is what players see in the language picker.
+   Set `language.flag` to the country code of the flag shown next to it (`de`, `es`, `br`…, see the [flag-icons list](https://flagicons.lipis.dev/)).
 3. Translate the values.
 4. Add the code to `languages.json`.
 5. Open a pull request. It is fine to submit a partial translation and complete it later.

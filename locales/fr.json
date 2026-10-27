@@ -1,6 +1,7 @@
 {
   "language": {
     "name": "Français",
+    "flag": "fr",
     "switcherLabel": "Changer de langue",
     "helpTranslate": "Aider à traduire YGOdle →"
   },
@@ -144,6 +145,7 @@
     "tier": "Niveau {{tier}}",
     "noArchetype": "Aucun archétype",
     "noDescription": "Aucune description disponible",
+    "descriptionLanguageNotice": "Certaines descriptions de cartes ne sont pas encore disponibles dans toutes les langues et s'affichent en anglais. Désolé pour la gêne !",
     "labels": {
       "archetype": "Archétype",
       "description": "Description",
