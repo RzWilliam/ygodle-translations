@@ -315,23 +315,50 @@
     "disclaimer": "All card images and data are property of Konami. This project is created by fans for fans and is not affiliated with Konami or the official Yu-Gi-Oh! Trading Card Game."
   },
   "whatsNew": {
-    "eyebrow": "New feature",
-    "title": "Play by series!",
-    "subtitle": "You asked for it in your feedback, here it is.",
+    "eyebrow": "New",
+    "title": "YGOdle now speaks French!",
+    "subtitle": "And maybe your language next, with your help.",
     "cta": "Let's duel!",
     "features": {
-      "pickSeries": {
-        "title": "Pick your series",
-        "text": "Use the series selector on the home page: DM, GX, 5D's, ZEXAL, ARC-V or every card."
+      "pickLanguage": {
+        "title": "Pick your language",
+        "text": "Click a language above, or use the button at the top right of the page at any time."
       },
-      "animeOnly": {
-        "title": "Anime cards only",
-        "text": "Each series only uses cards that appeared in its anime."
+      "translatedCards": {
+        "title": "Translated cards",
+        "text": "Card names, types and descriptions use their official translations."
       },
-      "ownDailyCards": {
-        "title": "Its own daily cards",
-        "text": "Every series has its own Monster, Spell, Trap and OverUnder challenges."
+      "helpTranslate": {
+        "title": "Help translate YGOdle",
+        "text": "Translations are open source: fix a mistake or add your language on <a>GitHub</a>."
       }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "YGOdle - Daily Yu-Gi-Oh! Card Guessing Game",
+      "description": "Test your Yu-Gi-Oh! knowledge with YGOdle! A daily card guessing game where you identify monsters, spells, and trap cards. New challenges every day!",
+      "keywords": "Yu-Gi-Oh, card game, daily challenge, guessing game, trading cards, YGO, daily game, anime, puzzle, Wordle, Yu-Gi-Oh cards, monsters, spells, traps"
+    },
+    "monsters": {
+      "title": "YGOdle - Monster Card Challenge",
+      "description": "Challenge yourself with monster cards from the Yu-Gi-Oh! universe. Can you guess today's monster card?",
+      "keywords": "Yu-Gi-Oh monsters, monster cards, card guessing, Blue-Eyes White Dragon, Dark Magician, Effect monsters, Normal monsters"
+    },
+    "spells": {
+      "title": "YGOdle - Spell Card Challenge",
+      "description": "Test your knowledge of spell cards in this daily Yu-Gi-Oh! challenge. Can you identify today's spell?",
+      "keywords": "Yu-Gi-Oh spells, spell cards, magic cards, Mystical Space Typhoon, Pot of Greed, Quick-Play spells"
+    },
+    "traps": {
+      "title": "YGOdle - Trap Card Challenge",
+      "description": "Face the trap card challenge! Test your Yu-Gi-Oh! knowledge with daily trap card puzzles.",
+      "keywords": "Yu-Gi-Oh traps, trap cards, Mirror Force, Torrential Tribute, Counter traps, Continuous traps"
+    },
+    "overUnder": {
+      "title": "YGOdle - OverUnder",
+      "description": "Can you guess which Yu-Gi-Oh! monster has the higher ATK? An endless higher/lower challenge — build your streak!",
+      "keywords": "OverUnder, ATK, higher lower, endless mode, streak, monster battle"
     }
   },
   "privacy": {
@@ -367,11 +394,11 @@
         "text": "We use your browser's local storage to remember your game progress (for each series and mode), your selected series and language, prevent multiple plays per day, and store your game history. This data stays on your device and is not transmitted to our servers."
       },
       "vercel": {
-        "text": "We use Vercel Analytics to understand how users interact with our website. This service collects anonymous usage data such as page views, user interactions, and performance metrics. Vercel Analytics is privacy-focused and does not use cookies or collect personal information. <link>Learn more</link>"
+        "text": "We use Vercel Analytics to understand how users interact with our website. This service collects anonymous usage data such as page views, user interactions, and performance metrics. Vercel Analytics is privacy-focused and does not use cookies or collect personal information. <a>Learn more</a>"
       },
       "google": {
         "name": "Google Analytics (Optional)",
-        "text": "When available, we may use Google Analytics to track user engagement, game completion rates, and website performance. You can opt-out by installing the <link>Google Analytics Opt-out Browser Add-on</link>."
+        "text": "When available, we may use Google Analytics to track user engagement, game completion rates, and website performance. You can opt-out by installing the <a>Google Analytics Opt-out Browser Add-on</a>."
       }
     },
     "choicesTitle": "Your Privacy Choices",
