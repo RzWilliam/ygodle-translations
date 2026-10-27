@@ -1,6 +1,7 @@
 {
   "language": {
     "name": "English",
+    "flag": "gb",
     "switcherLabel": "Change language",
     "helpTranslate": "Help translate YGOdle →"
   },
@@ -144,6 +145,7 @@
     "tier": "Tier {{tier}}",
     "noArchetype": "No archetype",
     "noDescription": "No description available",
+    "descriptionLanguageNotice": "Some card descriptions aren't available in every language yet and are shown in English. Sorry about that!",
     "labels": {
       "archetype": "Archetype",
       "description": "Description",
